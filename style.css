@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+.contre {
+    background-color: cornflowerblue;
+    height: 100px;
+    padding: 20px;
+}
+
+.photo {
+    height: 60px;
+    width: 60px;
+    transition-property: height, width;
+    transition-duration: 3s;
+    transition-delay: 500ms;
+    transition-timing-function: ease-out;
+}
+
+.photo:hover {
+    height: 30px;
+    width: 30px;
+}
+
+.container {
+    height: 200px;
+    position: fixed;
+}
+
+.menu {
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    background-color: bisque;
+    font-weight: bolder;
+    display: block;
+}
+
+.menu:hover {
+    color: white;
+}
